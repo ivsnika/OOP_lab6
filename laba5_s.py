@@ -45,3 +45,8 @@ class Sentence:
 
         sorted_words = sorted(self.words, key=str.lower)
         return iter(sorted_words)
+
+    def __containts__(self, item):
+        return item in self.words 
+
+    
